@@ -13,7 +13,7 @@ namespace API.Controllers
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<IEnumerable<Dto>>>  ()
+    public async Task<ActionResult<IEnumerable<ClienteDto>>>  ()
     {
         
     }
